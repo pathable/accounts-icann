@@ -12,8 +12,8 @@ Package.onUse((api) => {
   api.use("accounts-base", ["client", "server"]);
   api.imply("accounts-base", ["client", "server"]);
   api.use("accounts-oauth", ["client", "server"]);
-  api.use("pathable:icann@1.0.0");
-  api.imply("pathable:icann");
+  api.use("pathable:icann-oauth@1.0.0");
+  api.imply("pathable:icann-oauth");
 
   api.addFiles("icann.js");
 });
