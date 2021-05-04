@@ -11,7 +11,7 @@ if (Meteor.isClient) {
     const credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(
       callback
     );
-    Oidc.requestCredential(options, credentialRequestCompleteCallback);
+    Icann.requestCredential(options, credentialRequestCompleteCallback);
   };
   Accounts.registerClientLoginFunction("icann", loginWithIcann);
   Meteor.loginWithIcann = (...args) => Accounts.applyLoginFunction("icann", args);

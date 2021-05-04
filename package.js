@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Service for ICANN accounts",
-  version: "1.0.3",
+  version: "1.0.4",
   name: "pathable:accounts-icann",
   git: "https://github.com/pathable/accounts-icann",
 });
