@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Service for ICANN accounts",
-  version: "1.0.7",
+  version: "1.0.8",
   name: "pathable:accounts-icann",
   git: "https://github.com/pathable/accounts-icann",
 });
@@ -12,7 +12,7 @@ Package.onUse((api) => {
   api.use("accounts-base", ["client", "server"]);
   api.imply("accounts-base", ["client", "server"]);
   api.use("accounts-oauth", ["client", "server"]);
-  api.use("pathable:icann-oauth@1.0.7");
+  api.use("pathable:icann-oauth@1.0.8");
   api.imply("pathable:icann-oauth");
 
   api.addFiles("icann.js");
